@@ -1,0 +1,21 @@
+configTarget: "default data"
+
+---
+
+spring:
+  profiles: prod
+configTarget: "target prod"
+
+---
+
+spring:
+  profiles: dev
+configTarget: "target dev"
+
+---
+
+spring:
+  profiles: local
+configTarget: "target local"
+
+---
